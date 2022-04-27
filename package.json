@@ -5,6 +5,6 @@
   "license": "MIT",
   "dependencies": {
     "node-html-parser": "^5.3.3",
-    "request": "^2.88.2"
+    "sync-request": "^6.1.0"
   }
 }
