@@ -86,7 +86,7 @@ data.map(fw => {
         })
     } else if (osStr == 'iOS') {
         const devices = lastFwDevices
-        .filter(x => x.type == 'iPhone' || x.type.includes('iPad') || x.type == 'iPod')
+        .filter(x => x.type == 'iPhone' || x.type.includes('iPad') || x.type == 'iPod touch')
         .map(x => x.identifier)
 
         const ipswLinkArr = deviceLinks.querySelectorAll('li').map(x => {
